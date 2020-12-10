@@ -1,0 +1,344 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+
+
+
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+
+
+% modern themes
+
+
+
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+
+
+
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+
+
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+
+
+
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+% character encoding
+
+
+
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+
+
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+
+
+% adjust the page margins
+
+
+
+\usepackage[scale=0.75]{geometry}
+
+
+
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+
+
+
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+
+\usepackage{import}
+
+
+
+% personal data
+
+
+
+\name{Luca}{Mannino}
+%\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+
+
+
+%\address{}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+
+
+\phone[mobile]{+44 7543194917}                   % optional, remove / comment the line if not wanted
+
+
+
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+
+
+
+\email{luca.mannino333@gmail.com}                               % optional, remove / comment the line if not wanted
+
+
+
+\homepage{https://www.linkedin.com/in/luca-mannino-83a8221b0/}                         % optional, remove / comment the line if not wanted
+
+
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Luca}{Mannino}
+%\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+%\address{}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+44 7543194917}                   % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{luca.mannino333@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{https://www.linkedin.com/in/luca-mannino-83a8221b0/}                         % optional, remove / comment the line if not wanted
+\extrainfo{https://github.com/LucaMannino}
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\small{Currently working in a clinical lab performing qPCR COVID-19 tests I have recently graduated from Leicester University with a master's in Bioinformatics and Molecular Genetics. I am very passionate and intrigued by the power coding and new computing algorithm can have in answering important biological and genetics problems. I am very excited at the prospects of doing a PhD where I might be able to use and improve my academical and professional skills.}
+
+\section{Education}
+
+
+
+\subsection{Academic Qualifications}
+
+\vspace{4pt}
+
+\begin{itemize}
+
+\item{\cventry{2019--2020}{MSc Bioinformatics and Molecular Genetics}{University of Leicester}{ }{\textit{Distinction}}{}}
+
+\item{\cventry{2015--2018}{BSc Biochemistry (Hons) }{University of Hull}{}{\textit{Upper Second Class}}{}}  % arguments 3 to 6 can be left empty
+
+%\item{\cventry{2002--2009}{11 GCSEs}{Southlands High School}{Chorley}{\textit{A* to B Including Maths and English}}{}}
+
+\end{itemize}
+
+
+
+\subsection{Research Projects}
+
+\vspace{3pt}
+
+\begin{itemize}
+
+\item{\textbf{Masters Project :} \textit{'Development of a novel blood molecular algorithm for diagnosing dementia'}
+
+\vspace{3pt}
+
+\small{This was a multidisciplinary project involving Neurological Science, Mathematics and Molecular Genetics university departments. The project consisted analysis heterogeneous data including Protein Biomarkers levels and Biological Data and Psychological clinical test scores in order to discriminate different patient groups. The patient groups included healthy individuals, Alzheimer Disease, Lewis Body Dementia and Vascular Dementia. To analyse the data I used RStudio, I performed both statistical analysis and mathematical modeling such as PCA clustering.\newline
+Currently I am working with my supervisor and a team from Nottingham towards publishing a similar topic.}}
+
+\vspace{2pt}
+
+\item{\textbf{BSc Third year group project:} \textit{'Enzyme kinetics of Xanthine Oxidase'}
+
+\vspace{3pt}
+
+\small{My third-year group project was on polyphenols and the enzyme kinetics of xanthine oxidase, the study was completed using a Micro-plate Reader and sigma-plot for statistical analysis. Microplate reader ... was used to estimate the effect xanthine oxidase has on oxidative species. The purpose of the study was to estimate the validity of polypheols in diet to reduce the oxidative species produced by xanthine oxidase rewrite!}}
+
+%\vspace{6pt}
+
+%\item{\textbf{Industrial Project with Leyland Motors Ltd:}\textit{'Development of a Facility to Ensure the Achievement of Torque Parameters for a Specific Axle Configuration'}
+
+%\vspace{3pt}
+
+%\small{In the 3rd year of my course I spent a week completing an industrial project for Leyland Motors. I worked with a team operating as consultants for a particular problem the company was having. During this project I was working in a professional environment, and co-operating with various managers and engineers to create a design that met the requirements of the problem.}}
+
+\end{itemize}
+
+
+\section{ Skills}
+
+\subsection{Laboratory Based}
+
+\begin{itemize}
+
+
+\item \textbf{PCR:} reverse PCR, q-RT-PCR and multiplex PCR used in both University and industrial setting. 
+\vspace{3pt}
+\item \textbf{Vector recombination:} using plasmids for multiple genetics experiments and analysed the sequencing results.
+\vspace{3pt}
+\item \textbf{Enhancer trap:} GAL4-UAS system in fruit flies to study gene identification.
+\vspace{3pt}
+\item \textbf{Blotting techniques:} used to to analyse DNA, RNA and proteins.
+\vspace{3pt}
+
+
+
+\item \textbf{HPLC:} I have used HPLC-MS in University to analyse drug content in urine. While IC-HPLC in industrial setting for sugar content tests on food samples.
+
+
+
+
+
+
+\subsection{Programming}
+
+
+
+\newline
+
+\item \textbf{UNIX:} I am familiar in using a Linux environment and using Unix commands, I was provided with a Linux laptop from Leicester University and carried out all of my coursework with said Linux.
+\vspace{3pt}
+\item \textbf{R:} I have used RStudio for statistical analysis, PCA and regression analysis.
+\vspace{3pt}
+\item \textbf{Python:} I have used Biopython  to parse through PDB data to access relevant information and produce desired products including calculating ATOM-ATOM distance, pymol script and a local BLAST search.
+\vspace{3pt}
+Familiar with Jupyter Notebook and Github for the use in group projects.
+\vspace{3pt}
+\item \textbf{Java:} Have used java to modify and study bioinformatic algorithm such as Smith-Waterman algorithm.
+\vspace{3pt}
+\item \textbf{SQL:} Basic knowledge of mySQL used it for university coursework.
+
+\vspace{6pt}
+
+\subsection{Softwares}
+\newline
+\item \textbf{Pymol:} Protein structure studies obtained from PDB.
+\vspace{3pt}
+\item \textbf{EMBOSS:} Including GAP4 to examine/edit the assembly and plotorf to produce a plot of the open reading frames for genome annotation analysis.
+\vspace{3pt}
+\item \textbf{ARTEMIS:} Carried out gene contigs annotations.
+\vspace{3pt}
+\item \textbf{Proseq2:} Used to analyse and study genomic molecular evolution.
+\vspace{3pt}
+\item \textbf{FinchTV:} Next Generation Sequencing data analysis.
+\vspace{3pt}
+\item \textbf{RVista:} For the study of Ultra Conserved regions and possible promoter sites.
+
+
+
+
+
+\end{itemize}
+
+
+\section{Previous Experience}
+
+\begin{itemize}
+\vspace{3pt}
+\item{\cventry{October 2020--Present}{Scientist}{Source Bioscience}{Nottingham}{}{\vspace{3pt}I am working in the infectious disease laboratory to carry out q-RT-PCR assay to determine the presence of COVID-19 in nasal and throat swab tests. Main duties consist in nucleic acid extraction and purification (DNA/RNA), set-up of RT-qPCR assays and analysis of qPCR data. I also help with development and validation activity within the COVID-19 unit. The team consist in 1 supervisor, 3 scientists and 10 medical lab assistants, MLAs; as a scientists I help supervise the MLAs and assist the supervisor in laboratory logistics.}}
+
+\vspace{3pt}
+
+\item{\cventry{2018--2019}{Laboratory Technician}{ALS foods and pharmaceuticals}{Chatteris}{}{\vspace{3pt}     
+Duties involved protein quantification using nitrogen analysers produced by LECO as well as sugar content quantification using IC-HPLC.
+My responsibilities included setting up the instruments and running calibrations as well as analysing the results produced. Troubleshooting was also an important part of the job as if the equipment would fail I would have to figure out why and how to fix it if possible.
+I was also carrying out routine calibration of LECOs nitrogen analyser and other equipment’s such as pipettes and balances. }}
+
+
+
+%\item{\cventry{January 2008}{Assistant Electrician}{Ryan Electricals}{Southport}{}{\vspace{3pt}I spent a week working as an assistant electrician as part of my high school work experience. My roles included wiring plugs, tidying, and assisting with household electrical repairs and fittings.}}
+
+\end{itemize}
+
+\section{Interests and extra-curricular activity}
+
+\vspace{3pt}
+
+\begin{itemize}
+
+\item{I like to improve my coding skills by completing online courses on Coursera. I have completed a course on statistics on RStudio and I am now following a course on machine learning.
+
+\vspace{3pt}
+
+\item{I am currently working with my masters' dissertation supervisor and a team from Nottingham University towards a paper. I am really glad and excited to be able to contribute to reserch. The topic is CFS biomarkers in dementia patients and my contribution is mainly data analyssis such as sample size calculations, PCA for clustering analsyis and stitistical calculations.}
+
+\vspace{3pt}
+
+
+
+\end{itemize}
+
+%\section{Honors and Awards}
+
+%\vspace{6pt}
+
+%\begin{itemize}
+
+%\vspace{6pt}
+
+%\item{Awarded as star performer by vice president of ISC Software PVT LTD.}
+
+%\end{itemize}
+
+\section{References}
+
+\vspace{3pt}
+ 
+\begin{itemize}
+
+\item{Academical and work references available upon request}
+
+\end{itemize}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
