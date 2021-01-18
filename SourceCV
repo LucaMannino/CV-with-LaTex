@@ -1,4 +1,5 @@
 
+
 %% start of file `template.tex'.
 %% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
 %
@@ -134,7 +135,8 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\small{Currently working in a clinical lab performing qPCR COVID-19 tests I have recently graduated with a distinction from Leicester University with a master's in Bioinformatics and Molecular Genetics. I am happy to be working in a clinical lab carrying out CVID-19 dignastic tests. I am excited at the prospect of furthering my career in Source Bioscience.}
+\small{Currently working in a clinical lab performing qPCR COVID-19 tests I have recently graduated with a distinction from Leicester University with a master's in Bioinformatics and Molecular Genetics. Working in a clinical lab has allowed me to gain valuable experience and I am thrilled to be contributing to this workforce, keeping everyone safe during the pandemic. With my education and past experience, I am excited in furthering my career in Source Bioscience.
+
 
 \section{Education}
 
@@ -166,8 +168,8 @@
 
 \vspace{3pt}
 
-\small{This was a multidisciplinary project involving Neurological Science, Mathematics and Molecular Genetics university departments. The project consisted analysis heterogeneous data including Protein Biomarkers levels and Biological Data and Psychological clinical test scores in order to discriminate different patient groups. The patient groups included healthy individuals, Alzheimer Disease, Lewis Body Dementia and Vascular Dementia. To analyse the data I used RStudio, I performed both statistical analysis and mathematical modeling such as PCA clustering.\newline
-Currently I am working with my supervisor and a team from Nottingham towards publishing a similar topic.}}
+\small{This was a multidisciplinary project involving Neurological Science, Mathematics and Molecular Genetics university departments. The project consisted in analysing heterogeneous data including Protein Biomarkers levels and Biological Data and Psychological clinical test scores in order to discriminate different patient groups. The patient groups included healthy individuals, Alzheimer Disease, Lewis Body Dementia and Vascular Dementia. RStudio was used to analyse the data, I performed both statistical analysis and mathematical modeling such as PCA clustering.\newline
+Currently I am working with my supervisor and a team from Nottingham towards publishing a paper on a similar topic.}}
 
 \vspace{2pt}
 
@@ -175,19 +177,25 @@ Currently I am working with my supervisor and a team from Nottingham towards pub
 
 \vspace{3pt}
 
-\small{My third-year group project was on polyphenols and the enzyme kinetics of xanthine oxidase, the study was completed using a Micro-plate Reader and sigma-plot for statistical analysis. Microplate reader was used to estimate the effect xanthine oxidase has on oxidative species. The purpose of the study was to estimate the validity of polypheols in diet to reduce the oxidative species produced by xanthine oxidase rewrite!}}
+\small{My third-year group project was about polyphenols and the enzyme kinetics of xanthine oxidase. The study was completed using a Micro-plate Reader and sigma-plot for statistical analysis. Microplate reader was used to estimate the effect polyphenols have on xanthine oxidase oxidative activity. The purpose of the study was to estimate the validity of polypheols in diet to reduce the oxidative species produced by xanthine oxidase.}}
 
 
-\subsection{Relevant Modules and Subjects studied }
+\subsection{Relevant Modules and Subjects Studied }
 
-\item{\textbf{Genetic :} \textit{'PCR and Sequencing'}}
+\item{\textbf{Sequencing:} 
 \vspace{3pt}
 
 \small{I had the chance to analyse sequencing data from experiment we carried out using mainly FlinchTV software.\newline 
-We also studied and carried out multiple PCR techniques which included RT-qPCR for protein expression quantification and for gene quantification.
+I studied multiple sequencing techniques including Illumina sequencing and next generation sequencing techniques such as Oxford Nanopore Sequencing. }
 
-Regarding the RT-qPCR we had the chance to analyse the results using scientific software.\newline}
-Studied multiple sequecing techniques including next generation sequencing techniques such as Oxford Nanopore Sequencing. \newline}
+\item{\textbf{PCR:} 
+\vspace{3pt}
+
+\smallI I carried out multiple PCR techniques which included RT-qPCR for protein expression quantification and for gene quantification.
+I had the chance to analyse the RT-qPCR using scientific software.\newline}
+\vspace{3pt}
+
+
 \begin{itemize}
 
 
@@ -210,20 +218,24 @@ Studied multiple sequecing techniques including next generation sequencing techn
 \begin{itemize}
 
 
-\item \textbf{PCR:} reverse PCR, RT-qPCR and multiplex PCR used in both University and industrial setting. \newline I can carry out both Perkin Elmer and TaqPath RT-qPCR for COVID-19 diagnostic tests.
+\item \textbf{PCR:} Reverse PCR, RT-qPCR and multiplex PCR used in both university and industrial setting. \newline I can carry out both Perkin Elmer and TaqPath RT-qPCR for COVID-19 diagnostic tests.
 \vspace{3pt}
-\item \textbf{Vector recombination:} using plasmids for multiple genetics experiments and analysed the sequencing results.
-\vspace{3pt}
+\item \textbf{Vector recombination:} Using plasmids for recombination and analysed the sequencing results.\vspace{3pt}
 \item \textbf{Enhancer trap:} GAL4-UAS system in fruit flies to study gene identification.
 \vspace{3pt}
-\item \textbf{Lab Management Skills:} In the ALS foods and pharmaceutical lab I used to work alone on Sundays meaning that I had more responsibilities regarding workflow and management of the lab. During the rest of the week I would often print worksheet depending on priority thus organising the workflow for the day.
-\vspace{3pt}
+\item \textbf{Lab Management Skills:} In the ALS foods and pharmaceutical lab I used to work alone on Sundays meaning that I had more responsibilities regarding workflow and management of the lab. During the rest of the week I would print worksheet depending on priority thus organising the workflow for the day.
 \item \textbf{General Lab Skills:} I have used LIMS both in Source Bioscience and at ALS to upload results and complete worksheets.
 
 \vspace{3pt}
-\item \textbf{ Lab Training Skills:} In ALS I had the chance to train people carrying out protein analysis tests on food samples.
+\item \textbf{Troubleshooting:} Equipment would often fail at ALS labs, I would be responsible to fix the issue in a timely manner.
 
 \vspace{3pt}
+\item \textbf{Calibration:} Had the responsibility's to calibrate balances, pipettes and equipment used at ALS.
+
+\vspace{3pt}
+\item \textbf{Lab Training Skills:} At ALS I had the chance to train people carrying out protein analysis tests on food samples.
+
+
 
 
 
@@ -258,12 +270,11 @@ Studied multiple sequecing techniques including next generation sequencing techn
 
 \item{\cventry{October 2020--Present}{Scientist}{Source Bioscience}{Nottingham}{}{\vspace{3pt}I am working in the infectious disease laboratory to carry out q-RT-PCR assay to determine the presence of COVID-19 in nasal and throat swab tests. Main duties consist in nucleic acid extraction and purification (DNA/RNA), set-up of RT-qPCR assays and analysis of qPCR data. I also help with development and validation activity within the COVID-19 unit. The team consist in 1 supervisor, 3 scientists and 10 medical lab assistants, MLAs; as a scientists I help assist  in laboratory logistics.}}
 
-\vspace{3pt}
 
 \item{\cventry{2018--2019}{Laboratory Technician}{ALS foods and pharmaceuticals}{Chatteris}{}{\vspace{3pt}     
 Duties involved protein quantification using nitrogen analysers produced by LECO as well as sugar content quantification using IC-HPLC.
-My responsibilities included setting up the instruments and running calibrations as well as analysing the results produced. Troubleshooting was also an important part of the job as if the equipment would fail I would have to figure out why and how to fix it if possible.
-I was also carrying out routine calibration of LECOs nitrogen analyser and other equipment’s such as pipettes and balances. I was also helping organising the workflow by printing worksheet depending on priorities. On sundays I would work alone in the lab so I had more responsibilities regarding management of the lab. }}
+My responsibilities included setting up the instruments and running calibrations as well as analysing the results produced. Troubleshooting was also an important part of the job as I had the responsability to fix equipment in case of failures.
+ Occasionally I was organising the workflow by printing worksheet depending on priorities. On Sundays I would work alone in the lab so I had more responsibilities regarding management of the lab. }}
 
 
 
